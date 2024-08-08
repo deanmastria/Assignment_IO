@@ -1,14 +1,32 @@
 # Task 1
 
-## File structure
+## File structuring
+## Resources: directory contains input and output directories for input files, output for writing files
 ## Changed Main.java to MergeAndFindCommonIntegers
 ## Added input and output folders to resources
 ## Created input1 and input2
-## Method to read integers from specific files and
-## error handling to check if files have content/correct number formatting
+## readIntegersFromFile: Method to read integers from specific files and
+## error handling to check if files exist, have content and contain correct number formatting
 
 # Task 2
 
-## New ArrayList called mergedList created
-## mergedList.addAll(list2) written to merge the files while maintaining order
+## New ArrayList called mergedList: Created to store merged integers from both input files
+## Merged the Lists: Used mergedList.addAll(list2) to merge the files while maintaining order
+
+## Task 3
+
+## HashSet: Used to find common integers between the files
+## Testing: Added duplicate integers to input files for testing
+
+#Task 4
+
+## commonSet: Created using new HashSet<>(list1) to store common integers
+## commonList: Passed commonSet to a new ArrayList to create a list of common integers
+## Writing to File: Used writeIntegersToFile method to write commonList to common.txt
+
+#Task 5
+
+## Enhanced Error Handling: Continued to handle exceptions for file I/O operations and invalid number formats
+
+### files not found, filepath is correct, removed .txt from `List<Integer> list1 = readIntegersFromFile("src/main/resources/input/input1.txt");`
 
