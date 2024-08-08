@@ -30,7 +30,7 @@ public class MergeAndFindCommonIntegers {
             mergedList.addAll(list2);
 
             //Task 2: Write the result into a new text file called merged.txt
-            writeIntegersToFile(mergedList, "src/main/resources/output/merged.txt");
+            writeIntegersToFile(mergedList, "src/main/resources/output/merged.txt");    //merged.txt used
 
             //Task 3: Identify Integers present in both files
             Set<Integer> commonSet = new HashSet<>(list1);
@@ -40,7 +40,7 @@ public class MergeAndFindCommonIntegers {
             List<Integer> commonList = new ArrayList<>(commonSet);
 
             //Task 4: Write integers present in both files in new txt file named common.txt
-            writeIntegersToFile(commonList, "src/main/resources/output/common.txt");
+            writeIntegersToFile(commonList, "src/main/resources/output/common.txt");    //common.txt used
         }
     }
 
@@ -52,14 +52,14 @@ public class MergeAndFindCommonIntegers {
             while((line = br.readLine()) != null) {
                 try {
                     integers.add(Integer.parseInt(line.trim()));                               //Parse each line as an integer and add it to the list
-                } catch (NumberFormatException e) {
+                } catch (NumberFormatException e) {                                             //NumberFormatException used
                     System.out.println("Invalid format in file: " + filename + ": " + line);    //Handle invalid number format and print error
                 }
             }
 
-        } catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) {                                                     //FileNotFoundException used
             System.out.println("File Not Found: " + filename + ": " + e);                       //Handle case where the file is not found, print error
-        } catch (IOException e) {
+        } catch (IOException e) {                                                               //IOException Used
             System.out.println("IOException: " + filename + ": " + e);                           //Handle general I/O exceptions, print error
         }
         return integers;                                                                        // Return list of integers

@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b764b08-296f-4116-8575-6d3aba24bb07" name="Changes" comment="Task 2 written">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2b764b08-296f-4116-8575-6d3aba24bb07" name="Changes" comment="All tasks complete">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MergeAndFindCommonIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MergeAndFindCommonIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ReadMe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ReadMe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/input/input1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/input/input1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/input/input2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/input/input2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723122110954</updated>
-      <workItem from="1723122112083" duration="6930000" />
+      <workItem from="1723122112083" duration="7389000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -110,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723125939670</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="All tasks complete">
+      <option name="closed" value="true" />
+      <created>1723135678650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723135678650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +123,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task 1" />
     <MESSAGE value="Task 2 written" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2 written" />
+    <MESSAGE value="All tasks complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="All tasks complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

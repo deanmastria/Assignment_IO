@@ -1,3 +1,13 @@
+Criteria Met
+
+# Reads input from both files
+# Merges content of input files and maintains original order of integers
+# Writes and properly formats contents into merged.txt output file
+# Identifies common integers and stores them in separate data structure
+# Writes common integers in common.txt output file
+# All 3 Exceptions and try-catch blocks used
+
+
 # Task 1
 
 ## File structuring
@@ -29,4 +39,6 @@
 ## Enhanced Error Handling: Continued to handle exceptions for file I/O operations and invalid number formats
 
 ### files not found, filepath is correct, removed .txt from `List<Integer> list1 = readIntegersFromFile("src/main/resources/input/input1.txt");`
+
+
 
