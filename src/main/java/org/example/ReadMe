@@ -1,7 +1,14 @@
 # Task 1
 
 ## File structure
-
 ## Changed Main.java to MergeAndFindCommonIntegers
 ## Added input and output folders to resources
 ## Created input1 and input2
+## Method to read integers from specific files and
+## error handling to check if files have content/correct number formatting
+
+# Task 2
+
+## New ArrayList called mergedList created
+## mergedList.addAll(list2) written to merge the files while maintaining order
+
